@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+   header
+   </header> 
+   <nav>
+   <a href="test.html">test</a>
+   <a href="https://www.google.com">Google</a>
+   </nav>
+   <main>
+        <h1>main</h1>
+        <p>
+            Lorem <font color="red" size="24px">test</font><u>底線</u><b>加粗</b><mark>高亮</mark><i>斜體</i> dolor sit, amet consectetur adipisicing elit. Alias ducimus ut porro, perferendis repellat commodi blanditiis pariatur corrupti unde at quidem enim libero tempora exercitationem! Vitae nemo et delectus consectetur!
+        </p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, minus!</p>
+        <h2>main</h2>
+        <h3>main</h3>
+        <h4>main</h4>
+        <h5>main</h5>
+        <h6>main</h6>
+        <section>
+            <abbr title="Hyper Text Markup Language">HTML</abbr>
+            <q title="https://example.com" cite="https://example.com">要怎麼收穫先那麼哉</q>
+            <cite="https://example.com">要怎麼收穫先那麼哉</cite>
+            <code>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis veritatis sed sequi numquam non, similique id natus at dignissimos amet saepe eveniet dolorum explicabo aliquam nihil unde harum rem voluptatibus.</code>
+        </section>
+        <section>
+            <progress id="test" value="50" max="100"></progress>
+        </section>
+        <section>
+            <figure>
+                <img src="./images/dragon.jpg" alt="dragon" width="200px">
+                <figcaption>This is a gragon</figcaption>
+            </figure>
+        </section>
+        <section>
+            <ul>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+            </ul>
+            <ol>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+            </ol>
+            <ol>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+            </ol>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <th>標題1</th>
+                    <th>標題2</th>
+                    <th>標題3</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            內容1-1
+                        </td>
+                        <td>
+                            內容1-2  
+                        </td>
+                        <td>
+                            內容1-3   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            內容2-1
+                        </td>
+                        <td>
+                            內容2-2  
+                        </td>
+                        <td>
+                            內容2-3   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            內容3-1
+                        </td>
+                        <td>
+                            內容3-2  
+                        </td>
+                        <td>
+                            內容3-3   
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            表尾
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>基本資料</legend>
+                    <label for="name">姓名:</label>
+                    <input id="name" type="text" name="name">
+                    <label for="age">年齡:</label>
+                    <input id="age" type="text" name="age">
+                    <label for="city">城市:</label>
+                    <select name="city" id="city">
+                        <option value="台北">台北1</option>
+                        <option value="高雄" selected>高雄1</option>
+                    </select>
+                    <label for="gender">性別:</label>
+                    <input type="radio" value="male" id="gender1" name="gender">男
+                    <input type="radio" value="male" id="gender2" name="gender">女
+                    <label for="satisfy">滿意度:</label>
+                    <input type="range" min="1" max="10" value="5" id="satisfy" name="satisfy">
+                    <label for="introduction">自我介紹:</label>
+                    <textarea id="introduction" name="introduction" cols="50" rows="5"></textarea>
+                    <label>
+                        <input id="agree" type="checkbox" name="agree" checked>同意條款
+                    </label>
+
+                    <button type="submit">送出</button>
+                    <button type="reset">重設</button>
+                    <!-- <input type="submit" value="送出"> -->
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <video width="320" height="180" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            </video>
+            <audio controls>
+                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+            </audio>
+        </section>
+   </main>
+   <footer>footer</footer>
+</body>
+</html>
